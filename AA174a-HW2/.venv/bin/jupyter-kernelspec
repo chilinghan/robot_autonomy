@@ -1,4 +1,4 @@
-#!/Users/chilinghan/Documents/Github/robot_autonomy_I/AA174a-HW2/.venv/bin/python
+#!/home/pora/robot_autonomy/AA174a-HW2/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
