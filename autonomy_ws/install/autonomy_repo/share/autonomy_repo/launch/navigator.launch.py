@@ -1,1 +1,1 @@
-/home/pora/autonomy_ws/src/autonomy_repo/launch/navigator.launch.py
+/home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo/launch/navigator.launch.py

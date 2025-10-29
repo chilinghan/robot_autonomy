@@ -81,7 +81,7 @@
 		{
 			"backtrace" : 10,
 			"component" : "Unspecified",
-			"scriptFile" : "/home/pora/autonomy_ws/build/autonomy_repo/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"scriptFile" : "/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
 			"type" : "script"
 		}
 	],

@@ -1,8 +1,8 @@
-# Install script for directory: /home/pora/autonomy_ws/src/autonomy_repo
+# Install script for directory: /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pora/autonomy_ws/install/autonomy_repo")
+  set(CMAKE_INSTALL_PREFIX "/home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/pora/autonomy_ws/build/autonomy_repo/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pora/autonomy_ws/build/autonomy_repo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

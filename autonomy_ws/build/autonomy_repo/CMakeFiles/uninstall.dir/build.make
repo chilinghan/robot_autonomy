@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pora/autonomy_ws/src/autonomy_repo
+CMAKE_SOURCE_DIR = /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pora/autonomy_ws/build/autonomy_repo
+CMAKE_BINARY_DIR = /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pora/autonomy_ws/build/autonomy_repo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pora/autonomy_ws/src/autonomy_repo /home/pora/autonomy_ws/src/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

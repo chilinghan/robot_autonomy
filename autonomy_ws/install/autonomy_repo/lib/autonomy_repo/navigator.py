@@ -1,1 +1,1 @@
-/home/pora/autonomy_ws/src/autonomy_repo/scripts/navigator.py
+/home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo/scripts/navigator.py

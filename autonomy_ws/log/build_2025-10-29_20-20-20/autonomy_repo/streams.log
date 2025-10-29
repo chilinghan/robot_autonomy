@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.108s] -- Detecting C compiler ABI info - done
+[0.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.111s] -- Detecting C compile features
+[0.111s] -- Detecting C compile features - done
+[0.113s] -- Detecting CXX compiler ABI info
+[0.152s] -- Detecting CXX compiler ABI info - done
+[0.155s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.155s] -- Detecting CXX compile features
+[0.156s] -- Detecting CXX compile features - done
+[0.157s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.218s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.248s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.264s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.310s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.310s] -- Added test 'lint_cmake' to check CMake code style
+[0.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.311s] -- Added test 'xmllint' to check XML markup files
+[0.311s] -- Configuring done
+[0.313s] -- Generating done
+[0.313s] [33mCMake Warning:
+[0.313s]   Manually-specified variables were not used by the project:
+[0.313s] 
+[0.313s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[0.313s] 
+[0.313s] [0m
+[0.314s] -- Build files have been written to: /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo
+[0.316s] Invoked command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo
+[0.317s] Invoking command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[0.331s] Invoked command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo -- -j4 -l4
+[0.334s] Invoking command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo
+[0.336s] -- Install configuration: "RelWithDebInfo"
+[0.337s] -- Execute custom install script
+[0.337s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
+[0.342s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
+[0.345s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/navigator.py
+[0.348s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
+[0.351s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/navigator.launch.py
+[0.354s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[0.357s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[0.360s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[0.363s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[0.368s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[0.371s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[0.373s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[0.376s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[0.379s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[0.381s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[0.384s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[0.387s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv
+[0.389s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[0.392s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[0.394s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[0.397s] -- Symlinking: /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.xml
+[0.401s] Invoked command in '/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo

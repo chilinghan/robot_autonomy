@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pora/autonomy_ws/src/autonomy_repo
+CMAKE_SOURCE_DIR = /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pora/autonomy_ws/build/autonomy_repo
+CMAKE_BINARY_DIR = /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo
 
 # Utility rule file for autonomy_repo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/autonomy_repo_uninstall.dir/compiler_depend.make
 include CMakeFiles/autonomy_repo_uninstall.dir/progress.make
 
 CMakeFiles/autonomy_repo_uninstall:
-	/usr/bin/cmake -P /home/pora/autonomy_ws/build/autonomy_repo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 autonomy_repo_uninstall: CMakeFiles/autonomy_repo_uninstall
 autonomy_repo_uninstall: CMakeFiles/autonomy_repo_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/autonomy_repo_uninstall.dir/clean:
 .PHONY : CMakeFiles/autonomy_repo_uninstall.dir/clean
 
 CMakeFiles/autonomy_repo_uninstall.dir/depend:
-	cd /home/pora/autonomy_ws/build/autonomy_repo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pora/autonomy_ws/src/autonomy_repo /home/pora/autonomy_ws/src/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo /home/pora/autonomy_ws/build/autonomy_repo/CMakeFiles/autonomy_repo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo /home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/CMakeFiles/autonomy_repo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/autonomy_repo_uninstall.dir/depend
 

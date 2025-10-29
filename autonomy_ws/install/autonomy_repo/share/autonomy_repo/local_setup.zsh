@@ -1,1 +1,1 @@
-/home/pora/autonomy_ws/build/autonomy_repo/ament_cmake_environment_hooks/local_setup.zsh
+/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo/ament_cmake_environment_hooks/local_setup.zsh

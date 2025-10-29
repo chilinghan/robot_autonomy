@@ -1,1 +1,1 @@
-/home/pora/autonomy_ws/src/autonomy_repo/scripts/p3_plot.py
+/home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo/scripts/p3_plot.py

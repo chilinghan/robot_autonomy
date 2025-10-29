@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-RelWithDebInfo-d8021ab93e7bdb1f7c4f.json",
+					"jsonFile" : "directory-.-RelWithDebInfo-147beeedbedeb110e241.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "autonomy_repo_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-autonomy_repo_uninstall-RelWithDebInfo-e82525a7792690e7e78d.json",
+					"jsonFile" : "target-autonomy_repo_uninstall-RelWithDebInfo-56b41aec783c2e181c42.json",
 					"name" : "autonomy_repo_uninstall",
 					"projectIndex" : 0
 				},
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/pora/autonomy_ws/build/autonomy_repo",
-		"source" : "/home/pora/autonomy_ws/src/autonomy_repo"
+		"build" : "/home/pora/robot_autonomy/autonomy_ws/build/autonomy_repo",
+		"source" : "/home/pora/robot_autonomy/autonomy_ws/src/autonomy_repo"
 	},
 	"version" : 
 	{
