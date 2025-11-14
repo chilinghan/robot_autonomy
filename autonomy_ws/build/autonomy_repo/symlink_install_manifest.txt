@@ -1,6 +1,8 @@
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/navigator.py
+/home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/frontier_exploration.py
+/home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/exploration.launch.py
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/navigator.launch.py
 /home/pora/robot_autonomy/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz

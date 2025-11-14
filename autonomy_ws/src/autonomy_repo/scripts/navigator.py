@@ -11,7 +11,7 @@ from scipy.interpolate import splev, splrep
 class Navigator(BaseNavigator):
     def __init__(self, kw=2.0, kpx=2.0, kpy=2.0,
                  kdx=2.0, kdy=2.0):
-        super().__init__("Navigator")
+        super().__init__("navigator")
         self.kw = kw
         self.kpx = kpx
         self.kpy = kpy
@@ -52,7 +52,7 @@ class Navigator(BaseNavigator):
         self.V_prev = V
         self.om_prev = om
 
-        return TurtleBotControl(v=V)
+        return TurtleBotControl(v=V, omega=om)
 
     
     def compute_trajectory_plan(self, state, goal, occupancy, resolution, horizon):
@@ -88,9 +88,9 @@ class AStar(object):
         self.statespace_hi = statespace_hi         # state space upper bound (e.g., [5, 5])
         self.occupancy = occupancy                 # occupancy grid (a DetOccupancyGrid2D object)
         self.resolution = resolution               # resolution of the discretization of state space (cell/m)
-        self.x_offset = x_init                     
-        self.x_init = self.snap_to_grid(x_init)    # initial state
-        self.x_goal = self.snap_to_grid(x_goal)    # goal state
+        self.x_offset = (x_init.x, x_init.y)                
+        self.x_init = self.snap_to_grid((x_init.x, x_init.y))    # initial state
+        self.x_goal = self.snap_to_grid((x_goal.x, x_goal.y))    # goal state
 
         self.closed_set = set()    # the set containing the states that have been visited
         self.open_set = set()      # the set containing the states that are condidate for future expension
@@ -118,7 +118,7 @@ class AStar(object):
         """
         ########## Code starts here ##########
         in_bounds = min(x) > max(self.statespace_lo) and max(x) < min(self.statespace_hi)
-        return in_bounds and self.occupancy.is_free(x)
+        return in_bounds and self.occupancy.is_free(np.array(x))
         ########## Code ends here ##########
 
     def distance(self, x1, x2):
